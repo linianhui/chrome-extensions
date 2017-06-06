@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Header",
+    "name": "Table Of Contents",
     "version": "1.0",
-    "description": "Use h1,h2,h3,h4,h5,h6 element build table content.",
+    "description": "Use h1,h2,h3,h4,h5,h6 element build table of contents.",
     "homepage_url": "https://github.com/linianhui/chrome.extensions.header",
     "icons": {
         "16": "icon/icon.16.png",
@@ -15,12 +15,12 @@
         "persistent": false
     },
     "browser_action": {
-        "default_title": "Table Content Toggle"
+        "default_title": "Table Of Contents Toggle"
     },
     "content_scripts": [{
         "matches": ["<all_urls>"],
-        "js": ["js/nav.js"],
-        "css": ["css/nav.css"],
+        "js": ["js/table-of-contents.js"],
+        "css": ["css/table-of-contents.css"],
         "run_at": "document_end"
     }]
 }

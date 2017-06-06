@@ -1,0 +1,53 @@
+﻿.table-of-contents-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    background-color: #fff;
+    box-shadow: 0 0 2px #ccc;
+    overflow: auto;
+    z-index: 9999;
+}
+
+.table-of-contents-container .table-of-contents {
+    display: block;
+    padding: 1em;
+}
+
+.table-of-contents-container .table-of-contents a {
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    margin: 4px 0;
+}
+
+.table-of-contents-container .table-of-contents-h1 {
+    padding-left: 0;
+    font-size: 16px;
+}
+
+.table-of-contents-container .table-of-contents-h2 {
+    padding-left: 1em;
+    font-size: 14px;
+}
+
+.table-of-contents-container .table-of-contents-h3 {
+    padding-left: 2em;
+    font-size: 14px;
+}
+
+.table-of-contents-container .table-of-contents-h4 {
+    padding-left: 3em;
+    font-size: 12px;
+}
+
+.table-of-contents-container .table-of-contents-h5 {
+    padding-left: 4em;
+    font-size: 12px;
+}
+
+.table-of-contents-container .table-of-contents-h6 {
+    padding-left: 5em;
+    font-size: 12px;
+}
