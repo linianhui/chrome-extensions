@@ -1,0 +1,53 @@
+﻿div.auto-nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    background-color: #fff;
+    box-shadow: 0 0 2px #ccc;
+    overflow: auto;
+    z-index: 9999;
+}
+
+nav.auto-nav {
+    display: block;
+    padding: 1em;
+}
+
+    nav.auto-nav a {
+        text-decoration: none;
+        display: block;
+        padding: 0;
+        margin: 4px 0;
+    }
+
+        nav.auto-nav a.auto-nav-h1 {
+            padding-left: 0;
+            font-size: 16px;
+        }
+
+        nav.auto-nav a.auto-nav-h2 {
+            padding-left: 1em;
+            font-size: 14px;
+        }
+
+        nav.auto-nav a.auto-nav-h3 {
+            padding-left: 2em;
+            font-size: 14px;
+        }
+
+        nav.auto-nav a.auto-nav-h4 {
+            padding-left: 3em;
+            font-size: 12px;
+        }
+
+        nav.auto-nav a.auto-nav-h5 {
+            padding-left: 4em;
+            font-size: 12px;
+        }
+
+        nav.auto-nav a.auto-nav-h6 {
+            padding-left: 5em;
+            font-size: 12px;
+        }

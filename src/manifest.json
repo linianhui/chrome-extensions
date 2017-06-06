@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Header",
+    "version": "1.0",
+    "description": "Use h1,h2,h3,h4,h5,h6 elemant build table content.",
+    "homepage_url": "https://github.com/linianhui/chrome.extensions.header",
+    "icons": {
+        "16": "icon/icon.16.png",
+        "48": "icon/icon.48.png",
+        "128": "icon/icon.128.png"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["js/nav.js"],
+        "css": ["css/nav.css"],
+        "run_at": "document_end"
+    }]
+}
