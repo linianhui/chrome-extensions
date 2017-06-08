@@ -8,6 +8,7 @@
     box-shadow: 0 0 2px #ccc;
     overflow: auto;
     z-index: 9999;
+    text-align: left;
 }
 
 .table-of-contents-container .table-of-contents {
@@ -18,7 +19,6 @@
 .table-of-contents-container .table-of-contents a {
     text-decoration: none;
     display: block;
-    padding: 0;
     margin: 4px 0;
 }
 
