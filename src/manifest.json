@@ -3,7 +3,7 @@
     "name": "Table Of Contents",
     "version": "0.1",
     "description": "Use h1,h2,h3,h4,h5,h6 element build table of contents.",
-    "homepage_url": "https://github.com/linianhui/chrome.extensions.header",
+    "homepage_url": "https://github.com/linianhui/chrome.extensions.table-of-contents",
     "icons": {
         "16": "icon/icon.16.png",
         "48": "icon/icon.48.png",
